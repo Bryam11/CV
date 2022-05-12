@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { ThemeServiceService } from './services/theme-service.service';
 import { TemplateModule } from './template/template.module';
+import { DecimalPipe } from '@angular/common';
 
 
 @NgModule({
@@ -19,7 +20,7 @@ import { TemplateModule } from './template/template.module';
     PagesModule,
     TemplateModule
   ],
-  providers: [ThemeServiceService],
+  providers: [ThemeServiceService, DecimalPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
