@@ -29,4 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Recommendations
 
-if you need to use the swiper library use the swiper@6.8.4 version with the command `npm install swiper@6.8.4`
+if you need to use the swiper library use the swiper@6.8.4 [version with the command Reference] `npm install swiper@6.8.4`.
