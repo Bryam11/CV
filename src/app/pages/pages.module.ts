@@ -9,6 +9,7 @@ import { TestimonialComponent } from "./testimonial/testimonial.component";
 import { ContactComponent } from './contact/contact.component';
 import { CommonModule } from "@angular/common";
 import { SwiperModule } from 'swiper/angular';
+import { NgxWhastappButtonModule } from "ngx-whatsapp-button";
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { SwiperModule } from 'swiper/angular';
         TestimonialComponent,
         ContactComponent
     ],
-    imports: [CommonModule, SwiperModule],
+    imports: [CommonModule, SwiperModule, NgxWhastappButtonModule],
     exports: [
         InicioComponent,
         AboutComponent,
