@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill.component.scss']
 })
 export class SkillComponent implements OnInit {
+  public openList = 'frontend';
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  cambioOpenLIst(nameList: string): void {
+    this.openList = nameList;
   }
 
 }
