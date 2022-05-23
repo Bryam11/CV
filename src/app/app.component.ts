@@ -38,7 +38,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
   @ViewChild('skill') skill!: ElementRef;
   @ViewChild('services') services!: ElementRef;
   @ViewChild('qualification') qualification!: ElementRef;
-  @ViewChild('portfolio') portfolio!: ElementRef;
+  @ViewChild('portafolio') portfolio!: ElementRef;
   @ViewChild('project') project!: ElementRef;
   @ViewChild('testimonial') testimonial!: ElementRef;
   @ViewChild('contact') contact!: ElementRef;

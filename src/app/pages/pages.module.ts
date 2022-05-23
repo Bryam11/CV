@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CommonModule } from "@angular/common";
 import { SwiperModule } from 'swiper/angular';
 import { NgxWhastappButtonModule } from "ngx-whatsapp-button";
+import { ProjectComponent } from './project/project.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NgxWhastappButtonModule } from "ngx-whatsapp-button";
         QualificationComponent,
         PortafolioComponent,
         TestimonialComponent,
-        ContactComponent
+        ContactComponent,
+        ProjectComponent
     ],
     imports: [CommonModule, SwiperModule, NgxWhastappButtonModule],
     exports: [
@@ -32,7 +34,8 @@ import { NgxWhastappButtonModule } from "ngx-whatsapp-button";
         QualificationComponent,
         PortafolioComponent,
         TestimonialComponent,
-        ContactComponent
+        ContactComponent,
+        ProjectComponent
     ],
 })
 
