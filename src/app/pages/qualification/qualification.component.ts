@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class QualificationComponent implements OnInit {
   public openList = 'educacion';
 
+
+
+
   constructor() { }
 
   ngOnInit(): void {
@@ -15,5 +18,7 @@ export class QualificationComponent implements OnInit {
   cambioOpenLIst(nameList: string): void {
     this.openList = nameList;
   }
+
+ 
 
 }
